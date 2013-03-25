@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+.tiny { font-size: 10px; }
+.small { font-size: 13px; }
+.medium { font-size: 20px; }
+.large { font-size: 32px; }
+.x-large { font-size: 48px; }
+.xx-large { font-size: 64px; }
+.jumbo { font-size: 80px; }
+.mega { font-size: 96px; }
+
+.tile {
+    background-color: #222;
+    color: white;
+    position: absolute;
+}
+
+
+.tile-hd {
+  border-bottom: 1px solid black;
+  color: #888;
+  padding: 6px;
+  text-transform: uppercase;
+}
+
+.tile-bd {
+  overflow: hidden;
+  padding: 6px;
+}
+
+
+/* Time Widget */
+
+.time {
+  font-size: 40px;
+}
+
+.time-ampm {
+  font-size: 15px;
+}
+
+.time-weekday {
+  color: #444;
+  font-size: 15px;
+}
+
+.time-date {
+  color: #888;
+}
+
+
+
+/* Number Widget */
+
+.number {
+  font-size: 48px;
+}
+
+.number .prefix,
+.number .suffix {
+  color: #888;
+  font-size: 20px;
+}
+
+.change {
+  font-size: 20px;
+}
+
+.change-ind {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.change-none {
+  color: #edc240;
+}
+
+.change-none .change-ind {
+  border-left: 16px solid;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.change-up {
+  color: #468847;
+}
+
+.change-up .change-ind {
+  border-bottom: 16px solid;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.change-down {
+  color: #b94a48;
+}
+
+.change-down .change-ind {
+  border-top: 20px solid;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.change-ctx {
+  color: #888;
+}
+
+/* Nagios Widget */
+
+.nagios-host {
+  color: #ccc;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.nagios-service {
+  color: #888;
+  padding-left: 15px;
+}
+
+.nagios-ok, .nagios-warning, .nagios-critical {
+  background-color: #468847;
+  float: left;
+  margin-left: -15px;
+  margin-top: 4px;
+  width: 10px;
+  height: 10px;
+}
+
+.nagios-warning {
+  background-color: #edc240;
+}
+
+.nagios-critical {
+  background-color: #b94a48;
+}
+
+.nagios-output {
+  color: #666;
+  font-size: 9px;
+}
+
+.build-hd {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.build-bd {
+  color: #888;
+}

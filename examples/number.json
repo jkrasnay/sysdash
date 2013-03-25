@@ -1,0 +1,33 @@
+{
+  "east": {
+    "prevMtd": {
+      "dollars": 2048,
+      "units": 128
+    },
+    "mtd": {
+      "dollars": 1506,
+      "units": 82
+    }
+  },
+  "central": {
+    "prevMtd": {
+      "dollars": 2048,
+      "units": 128
+    },
+    "mtd": {
+      "dollars": 2048,
+      "units": 128
+    }
+  },
+  "west": {
+    "prevMtd": {
+      "dollars": 2048,
+      "units": 128
+    },
+    "mtd": {
+      "dollars": 3000,
+      "units": 300
+    }
+  }
+}
+
